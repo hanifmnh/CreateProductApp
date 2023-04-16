@@ -1,0 +1,25 @@
+#productImage {
+	color: #0d6efd;
+	border: 1px solid #0d6efd;
+}
+
+#productImage::-webkit-file-upload-button {
+	background-color: #0d6efd;
+	color: white;
+}
+
+input.input-error,
+select.input-error,
+textarea.input-error {
+	border-color: #dc3545;
+}
+
+.error {
+	color: #dc3545;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	box-shadow: none !important;
+}
